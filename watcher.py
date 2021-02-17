@@ -10,7 +10,6 @@ try:
 except:
     print ('Something went wrong...')
 
-
 def send_Email(recipients,alert):
     sent_from ='NoReply@SnowBird.Watcher'
     subject = 'SnowBirdWatcher'
