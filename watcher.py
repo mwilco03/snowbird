@@ -3,8 +3,6 @@ from pyhtcc import PyHTCC
 import json
 import smtplib
 
-
-
 try:
     server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
     server.ehlo()
